@@ -1,0 +1,23 @@
+public class LeapYear {
+  //This is a small program that determines if a particular year is a leap year or not, and returns true or false respectively.
+
+    public static boolean isLeapYear (int year) {
+        
+        if (year < 1 || year > 9999) {
+            return false;
+            
+        } else {
+            if (year % 4 == 0) {
+                if (year % 100 == 0) {
+                    if (year % 400 == 0){
+                        return true;
+                    } return false;
+                } return true;
+            } return false;
+        }
+        
+        
+        
+    }
+    
+}
